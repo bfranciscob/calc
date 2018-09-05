@@ -10,4 +10,4 @@ script:
   - py.test -v -r f --cov=.  --cov-report=html
   #- coverage run --source=home manage.py test home
 after_success:
-- coveralls
+ - coveralls
