@@ -6,7 +6,7 @@ python:
 install: 
   - pip install coveralls
 script: 
-  - py.test -v -r f --cov=.  --cov-report=html
+  - py.test -v -r f 
   #- coverage run --source=home manage.py test home
 after_success:
   - coveralls
